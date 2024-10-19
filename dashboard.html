@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>LinkBud</title>
+</head>
+
+<body>
+
+    <!-- PRELOADER START -->
+    <div id="preloader__body" class="z-50 fixed h-screen w-screen flex items-center justify-center flex-col bg-primary">
+        <svg id="preloader__svg" width="730" height="530" viewBox="0 0 730 530" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M402.637 389.201C557.637 262.701 563.637 144.702 479.637 52.2017C345.529 -61.5295 231.785 35.8131 149.888 105.9C145.374 109.764 140.956 113.544 136.638 117.202C38.6379 200.201 -58.8625 306.701 43.6375 441.701C156.138 554.201 270.137 514.201 402.637 389.201ZM107.946 385.71C146.193 422.293 174.202 426.007 199.324 421.094C234.116 414.29 281.132 386.973 344.309 327.373L346.529 325.279L348.893 323.349C418.325 266.683 441.832 221.81 447.142 192.698C451.523 168.683 445.778 143.104 420.349 113.464C396.917 94.5897 378.507 87.9804 364.98 85.8878C350.48 83.6449 335.045 85.5885 316.941 92.6438C279.521 107.227 245.021 136.591 204.175 171.356C200.042 174.874 195.844 178.446 191.572 182.064C142.959 223.237 107.937 259.828 92.6946 294.314C85.9204 309.641 83.9503 322.729 85.503 335.287C86.9751 347.193 92.2688 363.855 107.946 385.71ZM598.637 411.201C753.637 284.701 759.637 166.702 675.637 74.2017C541.529 -39.5295 427.785 57.8131 345.888 127.9C341.374 131.764 336.956 135.544 332.638 139.202C234.638 222.201 137.138 328.701 239.638 463.701C352.138 576.201 466.137 536.201 598.637 411.201ZM303.946 407.71C342.193 444.293 370.202 448.007 395.324 443.094C430.116 436.29 477.132 408.973 540.309 349.373L542.529 347.279L544.893 345.349C614.325 288.683 637.832 243.81 643.142 214.698C647.523 190.683 641.778 165.104 616.349 135.464C592.917 116.59 574.507 109.98 560.98 107.888C546.48 105.645 531.045 107.589 512.941 114.644C475.521 129.227 441.021 158.591 400.175 193.356C396.042 196.874 391.844 200.446 387.572 204.064C338.959 245.237 303.937 281.828 288.695 316.314C281.92 331.641 279.95 344.729 281.503 357.287C282.975 369.193 288.269 385.855 303.946 407.71Z"
+                fill="#825ED1" />
+        </svg>
+    </div>
+
+
+
+
+    <!-- START HEADER -->
+    <div class="bg-offwhite">
+
+
+        <header class="container mx-auto px-12 py-4 ">
+            <nav class="flex justify-between items-center">
+                <a href="/">
+                    <img class="w-52 h-14 object-contain" src="assets/logo.png" alt="LinkBud">
+                </a>
+                <ul>
+
+                </ul>
+                <div class="flex items-center space-x-10">
+                    <a href="#" class="text-lg font-semibold text-gray-800 hover:text-gray-600">Support</a>
+                    <a href="#" class="text-lg font-semibold text-gray-800 hover:text-gray-600">Sign In</a>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!-- END HEADER -->
+
+    <main class="bg-offwhite relative min-h-screen">
+
+        <section class="container mx-auto px-12 py-24">
+            <h1 data-aos="fade-right" class="text-gray-500 text-5xl font-bold">
+                <span class="text-secondary">
+                    LinkBud.
+                </span>
+                All your links <br>
+                one click away.
+            </h1>
+
+            <div class="mt-20 text-xl text-gray-500 font-semibold" data-aos="fade-right" data-aos-delay="100">
+                <span class="text-secondary">
+                    Meet the team
+                </span>
+                behind LinkBud.
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+
+                <div class="hover:scale-105 transition-all duration-300">
+                    <a href="members/edmer.html">
+                        <img class="mx-auto" data-aos="fade-up" data-aos-delay="100" src="assets/edmer.png" alt="">
+                    </a>
+                </div>
+                <div class="hover:scale-105 transition-all duration-300">
+                    <a href="members/florence.html">
+                        <img class="mx-auto" data-aos="fade-up" data-aos-delay="200" src="assets/florence.png" alt="">
+                    </a>
+                </div>
+                <div class="hover:scale-105 transition-all duration-300">
+                    <a href="members/jian.html">
+                        <img class="mx-auto" data-aos="fade-up" data-aos-delay="300" src="assets/jian.png" alt="">
+                    </a>
+                </div>
+                <div class="hover:scale-105 transition-all duration-300">
+                    <a href="members/kevern.html">
+                        <img class="mx-auto" data-aos="fade-up" data-aos-delay="400" src="assets/kevern.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="py-32" data-aos="fade-up">
+                <p class="max-w-xl text-center mx-auto font-semibold text-2xl text-secondary">
+                    We are third-year computer science students majoring in software development and working on a
+                    project called LinkBud. This platform allows users to connect to different social network profiles,
+                    share albums across several streaming providers, and even construct a basic personal homepage.
+                </p>
+            </div>
+        </section>
+
+        <div class="min-h-96">
+            <footer class="relative bg-primary py-40 min-h-96" data-aos="fade-up">
+                <div class="container mx-auto px-12 flex flex-col gap-6">
+
+
+                    <h2 class="text-5xl font-semibold text-secondary">
+                        Learn <br>
+                        More
+                    </h2>
+
+                    <div class="flex">
+                        <a href="/project-description.html">
+                            <div
+                                class="hover:scale-105 transition-all duration-300 block rounded-full bg-none border-2 border-secondary text-secondary text-xl px-12 py-4">
+                                Project Description <svg class="inline-block h-5" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                                </svg>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="absolute bottom-0 right-0" data-aos="fade-left">
+                    <img src="assets/bg2.png" alt="">
+                </div>
+            </footer>
+        </div>
+
+
+
+
+    </main>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -12,12 +12,24 @@ html, body{
     background-color: #283491;
 }
 
+.hover\:bg-primary-100:hover {
+    background-color: #1d287f;
+}
+
+.border-primary {
+    border-color: #283491;
+}
+
 .text-primary {
-    color: #283491;
+    color: #111a62;
 }
 
 .bg-secondary {
     background-color: #825ED1;
+}
+
+.border-secondary {
+    border-color: #825ED1;
 }
 
 .text-secondary {
@@ -30,7 +42,7 @@ html, body{
     fill:none;
     stroke: #825ED1;
     stroke-dashoffset: 2000;
-    animation: dash 5s ease-in-out forwards;
+    animation: dash 500ms ease-in-out forwards;
 }
 
 @keyframes dash {

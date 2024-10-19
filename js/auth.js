@@ -58,7 +58,7 @@ async function isAuthenticated() {
         method: 'GET'
     });
 
-    if (!response.ok) {
+    if (!response.ok && response.status !== 401) {
         throw new Error('Authentication check failed');
     }
 
@@ -102,3 +102,4 @@ async function redirectIfNotAuthenticated() {
         window.location.href = '/login.html';
     }
 }
+

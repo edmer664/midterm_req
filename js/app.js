@@ -9,5 +9,5 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log('running aos');
             AOS.init();
         }, 1000);
-    }, 5000);
+    }, 500);
 });
