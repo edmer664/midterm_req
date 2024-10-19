@@ -42,7 +42,7 @@ html, body{
     fill:none;
     stroke: #825ED1;
     stroke-dashoffset: 2000;
-    animation: dash 500ms ease-in-out forwards;
+    animation: dash 3s ease-in-out forwards;
 }
 
 @keyframes dash {

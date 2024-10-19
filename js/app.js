@@ -9,5 +9,10 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log('running aos');
             AOS.init();
         }, 1000);
-    }, 500);
+    }, 3000);
+
+
+    document.getElementById('sup').addEventListener('click', function () {
+        alert('Don\'t be afraid to break the link. Sometimes, a new connection is all you need.');
+    });
 });
